@@ -6,11 +6,11 @@
 
   <h2>Has introducido la siguiente tienda</h2>
 
-  <h3>Id: </h3>
-  <h3>Nombre: </h3>
-  <h3>Descripcion: </h3>
-  <h3>Password: </h3>
-  <h3>Email: </h3>
-  <h3>Likes: </h3>
+  <h3>Id: {{$id}}</h3>
+  <h3>Nombre: {{$name}}</h3>
+  <h3>Descripcion: {{$descripcion}}</h3>
+  <h3>Password: {{$password}}</h3>
+  <h3>Email: {{$email}}</h3>
+  <h3>Likes: {{$likes}}</h3>
 
 @endsection

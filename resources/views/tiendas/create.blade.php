@@ -5,14 +5,14 @@
 @section('content')
 
   <h3>Nueva tienda</h3>
-  <form action="" method="post">
+  <form action="{{route('newTienda')}}" method="post">
     @csrf
     Nombre:<br>
-    <input type="text" name="nombre">
-    <input type="text" name="descripcion">
-    <input type="password" name="password">
-    <input type="email" name="email">
-    <input type="number" name="likes" step="1">
+    <input type="text" name="name" placeholder="name">
+    <input type="text" name="descripcion" placeholder="descripcion">
+    <input type="password" name="password" placeholder="password">
+    <input type="email" name="email" placeholder="email">
+    <input type="number" name="likes" step="1" placeholder="likes">
     <br><br>
 
     <button class="buttonform" type="submit" name="submit">Crear</button>
