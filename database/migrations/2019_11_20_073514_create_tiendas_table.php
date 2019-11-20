@@ -20,7 +20,6 @@ class CreateTiendasTable extends Migration
             $table->string('password');
             $table->string('email');
             $table->integer('likes');
-            $table->integer('producto_id')->nullable();
             $table->timestamps();
         });
     }

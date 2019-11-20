@@ -15,8 +15,8 @@
     <input type="number" name="likes" step="1" placeholder="likes">
     <br><br>
     @if(isset($errors))
-    	@foreach($errors as $error)
-    		{{$error}}
+    	@foreach($errors->all() as $error)
+    		<div style="color:tomato;font-weight: bold;">{{$error}}</div>
     	@endforeach
     @endif
     <button class="buttonform" type="submit" name="submit">Crear</button>

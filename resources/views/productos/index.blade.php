@@ -26,7 +26,7 @@
         @isset($producto->tienda)
           {{$producto->tienda->name}}
         @else
-          -
+          <small><i>no definido</i></small>
         @endisset
       </td>
     </tr>
