@@ -14,7 +14,11 @@
     <input type="email" name="email" placeholder="email">
     <input type="number" name="likes" step="1" placeholder="likes">
     <br><br>
-
+    @if(isset($errors))
+    	@foreach($errors as $error)
+    		{{$error}}
+    	@endforeach
+    @endif
     <button class="buttonform" type="submit" name="submit">Crear</button>
   </form>
   <br>

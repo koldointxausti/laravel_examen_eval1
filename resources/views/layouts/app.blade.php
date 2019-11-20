@@ -16,6 +16,7 @@
                 <a href="">Menu</a>
                 <a href="git">git</a>
                 <a href="{{route('tiendas-create')}}">Tiendas</a>
+                <a href="{{route('productos-index')}}">Productos</a>
             </div>
             <hr><br><br>
             <div class="op">

@@ -21,4 +21,4 @@ Route::get('/tiendas','ShopController@show')->name('tiendas');
 Route::get('/tiendas/create','ShopController@create')->name('tiendas-create');
 Route::post('/tiendas/newTienda','ShopController@newTienda')->name('newTienda');
 Route::post('/tiendas/store','ShopController@store')->name('tiendas-store');
-Route::get('productos/index','ProductController@index')->name('productos-index');
+Route::get('/productos/index','ProductController@index')->name('productos-index');

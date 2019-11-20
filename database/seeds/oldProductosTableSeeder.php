@@ -16,7 +16,8 @@ class ProductosTableSeeder extends Seeder
         	'name'=>'ps2adffsda',
         	'description'=>'sadfdfssdfa',
         	'stock'=>2,
-        	'price'=>3.2
+        	'price'=>3.2,
+            'tienda_id'=>3
         ]);
 
         DB::table('productos')->insert([
@@ -44,7 +45,8 @@ class ProductosTableSeeder extends Seeder
         	'name'=>'psadffsda',
         	'description'=>'sadfsdfa',
         	'stock'=>2,
-        	'price'=>3.2
+        	'price'=>3.2,
+            'tienda_id'=>1
         ]);
 
         DB::table('productos')->insert([
