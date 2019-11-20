@@ -17,6 +17,7 @@ Route::get('git', function () {
 Route::get('/', function () {
     return view('home');
 })->name('home');
+Route::get('/tiendas','ShopController@show')->name('tiendasShow');
 
 Route::get('tiendas/create','ShopController@create')->name('tiendas.create');
 Route::post('tiendas/store','ShopController@store')->name('tiendas.store');
